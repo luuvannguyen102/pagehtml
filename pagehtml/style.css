@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+
+}
+/* header */
+.header-top {
+    margin-left: 60px;
+}
+.ul-header li {
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    border-right: 3px solid thistle;
+    font-size: 90%;
+    
+}
+li a {
+    color: black;
+}
+.border-top {
+    background-color: brown;
+    height: 5px;
+}
+.ul-header {
+    margin-top: 25px;;
+}
+.select-a {
+    color: red;
+}
+/* content-center */
+.content-center {
+    background-color: rgba(160, 0,0, 0.8);
+}
+.col-md-3 form select {
+    width: 69%;
+    margin: 5px;
+}
+.col-md-3 form button {
+    width: 69%;
+    background-color: gold;
+    margin: 5px;
+}
+.col-md-3 form input {
+    margin: 5px ;
+}
+.col-md-3 form {
+    text-align: center;
+    border: 2px dotted whitesmoke;
+    height: 330px;
+    margin-top: 20px;
+}
+.col-md-3 form h2 {
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-top: 10px;
+    font-size: 150%;
+    padding: 10px;
+    border-bottom: 1px dotted whitesmoke;
+}
+.content-right {
+    border-bottom: 1px dotted whitesmoke;
+   
+}
+/* .content-right */
+.col-md-9 .content-right li img {
+    border-radius: 65%;
+    border: 2px dotted whitesmoke;
+    padding: 5px;
+    margin-left: 0;
+    width: 120px;
+    height: 150px;
+}
+.content-right ul li {
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    width: 170px;
+}
+.content-right ul li a p,h4 {
+    color: whitesmoke;
+}
+.content-right div h2 {
+    color: whitesmoke;
+}
+/* content-botter */
+.content-botter {
+    background-color: white;
+    margin-top: 30px;
+}
+.bo-tron {
+    border-radius: 65%;
+    border: 2px solid rgb(206, 33, 33);
+    padding: 5px;
+}
