@@ -2,6 +2,10 @@ body {
     margin: 0;
 
 }
+.title {
+    color: whitesmoke;
+
+}
 /* header */
 .header-top {
     margin-left: 60px;
@@ -94,4 +98,35 @@ li a {
     border-radius: 65%;
     border: 2px solid rgb(206, 33, 33);
     padding: 5px;
+}
+/* content-last */
+.content-last {
+    background-color: rgba(160, 0,0, 0.8);
+}
+.mini-img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+div ul li {
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 80%;
+}
+.task-study {
+    margin-top: 20px;
+}
+.col-md-7 div ul li {
+    float: left;
+}
+.col-md-5 div ul li {
+    float: left;
+}
+
+.patter {
+    margin-bottom: 20px;
+}
+.botter {
+    border-bottom: 1px dotted black;
 }
