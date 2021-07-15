@@ -10,14 +10,21 @@ body {
 .header-top {
     margin-left: 60px;
 }
-.ul-header li {
+.header-li {
     float: left;
     list-style-type: none;
     margin: 5px;
     padding: 5px;
-    border-right: 3px solid thistle;
+    border-right: 2px solid thistle;
+    height: 20px;
     font-size: 90%;
     
+}.ul-header li {
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 90%;
 }
 li a {
     color: black;
@@ -129,4 +136,10 @@ div ul li {
 }
 .botter {
     border-bottom: 1px dotted black;
+}
+
+/* footer */
+.footer {
+    background-color: darkgray;
+    height: 40px;
 }
